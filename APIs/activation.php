@@ -4,6 +4,9 @@
 $correcto = 1;//debug
 	if($correcto){
 //get activation code
+
+//get activation code
+
 $activate1 = $_GET['activate'];
 $user = $_GET['user'];
 $activate = mysqli_real_escape_string($dbc,$activate1);
